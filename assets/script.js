@@ -33,6 +33,7 @@ window.addEventListener("load", (event) => {
   changeColor()
 });
 
-function saveText() {
-  localStorage.setItem()
+function saveText(id) {
+  localStorage.setItem(document.getElementById(id).value, document.getElementById(id).value)
+  console.log(document.getElementById(id).value)
 }
